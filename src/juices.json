@@ -1,0 +1,12 @@
+{
+    "juices": [
+        {
+            "id": 1001,
+            "name": "testing"
+        },
+        {
+            "id": 1002,
+            "name": "testing"
+        }
+    ]
+}
