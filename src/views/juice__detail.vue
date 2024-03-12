@@ -146,14 +146,15 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
+import { useRoute } from 'vue-router'
 
 const modules = [Pagination, Navigation];
 
-const props = defineProps(["id"]);
 const base__URL = "https://mn-juicy-api.onrender.com/api/product/";
 const juice__URL = "https://mn-juicy-api.onrender.com/";
 const juice = ref({});
 const related__Juices = ref([]);
+const route = useRoute()
 
 const getJuice = (juiceName) => {
   return juice__URL + juiceName;
@@ -162,7 +163,7 @@ const getJuice = (juiceName) => {
 onMounted(async () => {
   try {
     await axios
-      .get(base__URL + props.id)
+      .get(base__URL + route.params.id)
       .then((response) => {
         juice.value = response.data.list;
         fetchRelatedJuice();

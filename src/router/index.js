@@ -11,8 +11,7 @@ const router = createRouter({
     {
       name: 'juice__detail',
       path: '/juice__detail/:id',
-      component: () => import('../views/juice__detail.vue'),
-      props: true
+      component: () => import('../views/juice__detail.vue')
     },
     {
       name: 'juice__page',

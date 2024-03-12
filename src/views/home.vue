@@ -17,6 +17,17 @@
     import main__juice from '@/components/main__juice.vue';
     import why__choose__us from '@/components/why__choose__us.vue';
     import star__juice from '@/components/star__juice.vue'
+
+    import { initFlowbite } from "flowbite";
+import { onMounted } from 'vue';
+
+    onMounted(() => {
+        try {
+            initFlowbite()
+        } catch (error) {
+            console.log(error.message)
+        }
+    })
 </script>
 
 <style lang="scss" scoped>
