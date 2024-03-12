@@ -4,10 +4,7 @@
         <juice__section/>
         <star__juice/>
         <main__juice/>
-        <why__choose__us/>   
-        <div class="relative">
-            
-        </div> 
+        <!-- <why__choose__us/>    -->
     </div>
 </template>
 
