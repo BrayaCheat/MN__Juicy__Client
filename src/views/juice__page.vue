@@ -16,16 +16,15 @@
     </nav>
     <div
       v-if="juices.length > 0"
-      class="grid xl:grid-cols-4 lg:grid-cols-2 grid-cols-1 place-items-center gap-9"
+      class="grid xl:grid-cols-4 lg:grid-cols-4 grid-cols-1 place-items-center gap-9"
     >
-      <router-link
+      <div
       class="shadow-md"
-        :to="{ name: 'juice__detail', params: { id: juice._id } }"
         v-for="juice in juices"
         :key="juice._id"
       >
         <juice__card :props="juice" />
-      </router-link>
+      </div>
     </div>
     <div v-else>
       <h1 class="text-4xl font-medium animate-pulse">Loading Please Wait...</h1>
