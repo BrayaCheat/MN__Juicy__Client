@@ -1,16 +1,17 @@
 <template>
   <div
-    class="container mx-auto lg:p-36 p-3 my-36 grid md:grid-cols-2 grid-cols-1 md:place-items-stretch place-items-center md:gap-36 gap-9 overflow-hidden"
+    class="container mx-auto lg:p-36 p-3 lg:my-20 my-36 py-10 grid md:grid-cols-2 grid-cols-1 md:place-items-stretch place-items-center md:gap-20 gap-9 overflow-hidden"
   >
+  <router-link to="/juice__page" id="title" class="md:col-span-2 col-span-1">Go Back <i class="fa-solid fa-chevron-right"></i></router-link>
     <div>
       <img
         :src="getJuice(juice.image)"
         alt="Juice__Detail"
-        class="bg-white rounded shadow-md object-cover w-full h-full"
+        class="bg-white rounded shadow-md object-contain w-96 h-96"
       />
     </div>
     <div class="flex flex-col md:items-stretch items-center gap-6 w-full">
-      <h1 id="title">{{ juice.name }}</h1>
+        <h1 id="title">{{ juice.name }}</h1>
       <div class="star flex items-start border-b border-zinc-300 pb-3">
         <svg
           class="w-6 h-6 text-yellow-300 drop-shadow-sm animate-pulse"
@@ -87,12 +88,6 @@
           <span>1 Bottle</span>
         </li>
       </ul>
-      <button
-        @click="downloadImage"
-        class="bg-primary rounded shadow-md text-md font-medium px-6 py-3 text-white w-fit hover:opacity-75 duration-300"
-      >
-        View Image
-      </button>
     </div>
 
     <!-- <div class="grid md:col-span-2 border-t border-zinc-300 py-20">

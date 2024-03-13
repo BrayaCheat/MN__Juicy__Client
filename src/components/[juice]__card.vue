@@ -9,12 +9,12 @@
         <img
           :src="getJuice(juice.image)"
           alt=""
-          class="drop-shadow-2xl rounded w-full h-64 object-cover"
+          class="drop-shadow-2xl rounded w-72 h-72 object-contain"
         />
         <h1 class="font-normal text-xl text-zinc-500 uppercase">
           {{ juice.name }}
         </h1>
-        <p class="font-medium text-xl text-primary">${{ juice.price }}</p>
+        <p class="font-medium text-xl bg-primary px-6 py-2 rounded text-white shadow-md">${{ juice.price }}</p>
       </router-link>
 </template>
 

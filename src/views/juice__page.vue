@@ -1,12 +1,12 @@
 <template>
   <div class="container mx-auto lg:p-36 p-3 lg:my-20 my-44 flex flex-col gap-20 overflow-hidden">
     <div class="flex justify-between items-center">
-      <h1 id="title">All Juices</h1>
+      <h1 id="title" class="ms-5">All Juices</h1>
     </div>
     <nav>
-      <ul class="flex flex-wrap items-center gap-9">
+      <ul class="grid md:grid-cols-4 grid-cols-1 gap-9 ">
         <li v-for="(list, index) in lists" :key="list.id"
-        class="cursor-pointer hover:underline text-lg font-medium text-primary"
+        class="cursor-pointer hover:underline text-lg font-medium text-primary p-5"
         :class="{active: currentPage === index}"
         @click="changeCategory(list.name, index)"
         >
@@ -88,5 +88,8 @@ const changeCategory = async (name,i) => {
 <style scoped>
   .active{
     text-decoration: underline;
+    background-color: #8fc951;
+    padding: 20px;
+    color: white;
   }
 </style>

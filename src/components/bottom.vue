@@ -9,25 +9,46 @@
         
       </span>
       <ul
-        class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
+        class="flex flex-wrap gap-9 items-center mt-3 text-2xl font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
       >
-        <li>
-          <a href="#" class="hover:underline me-4 md:me-6">About</a>
-        </li>
-        <li>
-          <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
-        </li>
-        <li>
-          <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
-        </li>
-        <li>
-          <a href="#" class="hover:underline">Contact</a>
+        <li v-for="link in links" :key="link.id" class="hover:text-primary duration-300">
+            <a :href="link.path" target="_blank"><i :class="link.icon"></i></a>
         </li>
       </ul>
     </div>
   </footer>
 </template>
 
-<script setup></script>
+<script setup>
+  import {ref} from 'vue'
+
+  const links = ref([
+    {
+      id: 1,
+      name: 'TikTok',
+      icon: 'fa-brands fa-tiktok',
+      path: 'https://www.tiktok.com/@m_skin__'
+    },
+    {
+      id: 2,
+      name: 'Facebook',
+      icon: 'fa-brands fa-facebook',
+      path: 'https://www.facebook.com/malis.kheang'
+    },
+    {
+      id: 3,
+      name: 'Instragram',
+      icon: 'fa-brands fa-instagram',
+      path: 'https://www.instagram.com/ma__lisss/'
+    },
+    {
+      id: 4,
+      name: 'Telegram',
+      icon: 'fa-brands fa-telegram',
+      path: 'https://t.me/Malis_Kheang'
+    }
+
+  ])
+</script>
 
 <style lang="scss" scoped></style>

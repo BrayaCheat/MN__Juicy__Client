@@ -33,7 +33,7 @@
       </swiper>
       <div class="flex flex-col items-start my-9 gap-9 p-3 w-full">
         <h1 id="title" data-aos="fade-in" data-aos-duration="1500">
-          Pomegrenate Juice - $2.5
+          Pomegrenate Juice - $3.0
         </h1>
         <p
           class="font-semibold text-xl"
