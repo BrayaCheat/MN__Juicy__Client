@@ -30,11 +30,11 @@ const getJuice = (juiceName) => {
   return juice__URL + juiceName;
 };
 
-const reloadPage = () => {
-  setTimeout(() => {
-    location.reload()
-  }, 100);
-}
+// const reloadPage = () => {
+//   setTimeout(() => {
+//     location.reload()
+//   }, 100);
+// }
 </script>
 
 <style lang="scss" scoped>
