@@ -8,7 +8,7 @@
         >See more >></router-link
       >
     </div>
-    <div v-if="juices.length > 0" class="grid place-items-center gap-9">
+    <div v-if="juices.length > 0">
       <swiper
         :slidesPerView="1"
         :spaceBetween="10"
@@ -38,7 +38,7 @@
         :modules="modules"
         class="mySwiper"
       >
-        <swiper-slide v-for="juice in juices" :key="juice._id" class="shadow-md">
+        <swiper-slide v-for="juice in juices" :key="juice._id">
           <Juice__card :props="juice" />
         </swiper-slide>
       </swiper>
@@ -89,7 +89,6 @@ onMounted(async () => {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
 
   /* Center slide text vertically */
   display: flex;

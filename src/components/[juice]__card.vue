@@ -3,7 +3,7 @@
         @click="reloadPage"
         :to="{ name: 'juice__detail', params: { id: juice._id } }"
         
-        class="flex flex-col items-center gap-3 bg-white px-3 py-6"
+        class="flex flex-col items-center gap-3 bg-white px-3 py-6 shadow-md w-full"
         data-aos="zoom-in"
         data-aos-duration="1500"
       >

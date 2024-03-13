@@ -2,8 +2,8 @@
     <div class="overflow-hidden">
         <hero__section/>
         <juice__section/>
-        <main__juice/>
         <star__juice/> 
+        <main__juice/>  
     </div>
 </template>
 

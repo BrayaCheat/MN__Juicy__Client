@@ -1,13 +1,13 @@
 <template>
   <div
     v-if="juice"
-    class="container mx-auto lg:p-36 p-3 my-36 grid md:grid-cols-2 grid-cols-1 md:place-items-stretch place-items-center md:gap-36 gap-9"
+    class="container mx-auto lg:p-36 p-3 my-36 grid md:grid-cols-2 grid-cols-1 md:place-items-stretch place-items-center md:gap-36 gap-9 overflow-hidden"
   >
     <div>
       <img
         :src="getJuice(juice.image)"
         alt="Juice__Detail"
-        class="bg-white rounded shadow-md object-cover"
+        class="bg-white rounded shadow-md object-cover w-full h-full"
       />
     </div>
     <div class="flex flex-col md:items-stretch items-center gap-6 w-full">
@@ -206,7 +206,6 @@ const downloadImage = () => {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
 
   /* Center slide text vertically */
   display: flex;

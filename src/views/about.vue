@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto lg:p-36 p-3 lg:my-20 my-44 grid place-items-center text-center gap-20">
+    <div class="container mx-auto lg:p-36 p-3 lg:my-20 my-44 grid place-items-center text-center gap-20 overflow-hidden">
         <h1 id="title">About Us</h1>
         <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis explicabo voluptates eius aliquid inventore laborum reiciendis soluta maiores sed repudiandae doloribus dicta molestias animi nesciunt, neque quisquam eaque. Explicabo, sint?</h1>
         <h1 id="title">Our Amazing Team</h1>
