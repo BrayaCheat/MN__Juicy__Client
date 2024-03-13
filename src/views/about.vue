@@ -5,7 +5,7 @@
         <h1 id="title">Our Amazing Team</h1>
         <div class="grid xl:grid-cols-4 lg:grid-cols-2 grid-cols-1 place-items-stretch gap-9">
             <div v-for="team in teams" :key="team.id" class="flex flex-col gap-3 items-center p-9 bg-white shadow-md">
-                <img :src="team.profile" alt="profile" class="w-44 h-44 rounded-full shadow-md drop-shadow-md object-cover">
+                <!-- <img :src="team.profile" alt="profile" class="w-44 h-44 rounded-full shadow-md drop-shadow-md object-cover"> -->
                 <h1 id="title" class="h-20">{{ team.role }}</h1>
                 <h1>{{ team.name }}</h1>
             </div>

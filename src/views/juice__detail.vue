@@ -1,6 +1,5 @@
 <template>
   <div
-    v-if="juice"
     class="container mx-auto lg:p-36 p-3 my-36 grid md:grid-cols-2 grid-cols-1 md:place-items-stretch place-items-center md:gap-36 gap-9 overflow-hidden"
   >
     <div>
@@ -131,9 +130,6 @@
         </swiper-slide>
       </swiper>
     </div>
-  </div>
-  <div v-else>
-    <h1 class="text-4xl font-medium animate-pulse">Loading Please Wait...</h1>
   </div>
 </template>
 
