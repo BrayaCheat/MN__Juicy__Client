@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-full overflow-hidden">
+    <div class="overflow-hidden">
         <hero__section/>
         <juice__section/>
         <main__juice/>
