@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto lg:p-36 p-3 lg:my-20 grid lg:grid-cols-3 gap-20">
+    <div class="container mx-auto lg:p-36 p-3 my-20 grid lg:grid-cols-3 gap-20">
         <div class="lg:col-span-3 col-span-1 flex items-center gap-6">
             <h1 id="title">Popular Juices</h1>
         </div>
