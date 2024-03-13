@@ -16,7 +16,7 @@
     </nav>
     <div
       v-if="juices.length > 0"
-      class="grid xl:grid-cols-4 lg:grid-cols-4 grid-cols-1 place-items-stretch gap-9"
+      class="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 place-items-stretch gap-9"
     >
       <div
       class="shadow-md"
@@ -56,7 +56,7 @@ const lists = ref([
   },
   {
     id: 4,
-    name: 'star'
+    name: 'Star Juice'
   }
 ])
 
@@ -73,7 +73,7 @@ onMounted(async () => {
 
 const changeCategory = async (name,i) => {
   try {
-    await axios.get("https://mn-juicy-api.onrender.com/api/product/category/" + name)
+    await axios.get("https://mn-juicy-api.onrender.com/api/category/" + name)
     .then((response) => {
       juices.value = response.data.list
       currentPage.value = i

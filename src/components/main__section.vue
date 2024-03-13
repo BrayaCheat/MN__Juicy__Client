@@ -14,7 +14,7 @@
           shadowScale: 0.6,
         }"
         :autoplay="{
-          delay: 2000
+          delay: 3000
         }"
         :loop="true"
         :pagination="true"
