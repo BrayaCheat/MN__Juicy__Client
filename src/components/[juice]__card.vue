@@ -1,6 +1,5 @@
 <template>
     <router-link
-        @click="reloadPage"
         :to="{ name: 'juice__detail', params: { id: juice._id } }"
         
         class="flex flex-col items-center gap-3 bg-white px-3 py-6 shadow-md w-full"
@@ -30,11 +29,6 @@ const getJuice = (juiceName) => {
   return juice__URL + juiceName;
 };
 
-// const reloadPage = () => {
-//   setTimeout(() => {
-//     location.reload()
-//   }, 100);
-// }
 </script>
 
 <style lang="scss" scoped>

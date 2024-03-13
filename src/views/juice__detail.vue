@@ -95,7 +95,7 @@
       </button>
     </div>
 
-    <div class="grid md:col-span-2 border-t border-zinc-300 py-20">
+    <!-- <div class="grid md:col-span-2 border-t border-zinc-300 py-20">
       <h1 id="title" class="pb-20">Related Juices</h1>
       <swiper
         :slidesPerView="1"
@@ -129,7 +129,7 @@
           <Juice__card :props="related__Juice" />
         </swiper-slide>
       </swiper>
-    </div>
+    </div> -->
   </div>
 </template>
 
