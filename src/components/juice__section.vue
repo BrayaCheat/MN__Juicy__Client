@@ -17,10 +17,6 @@
         }"
         :navigation="true"
         :loop="true"
-        :autoplay="{
-          delay: 2000,
-          disableOnInteraction: false,
-        }"
         :breakpoints="{
           '640': {
             slidesPerView: 2,
