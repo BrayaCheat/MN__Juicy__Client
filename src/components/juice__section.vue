@@ -69,7 +69,9 @@ onMounted(async () => {
   try {
     await axios
       .get(base__URL)
-      .then((response) => (juices.value = response.data.list))
+      .then((response) => {
+        (juices.value = response.data.list)
+      })
       .catch((error) => console.log(error));
   } catch (error) {
     console.log(error.message);

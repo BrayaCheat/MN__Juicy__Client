@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto lg:p-36 p-3 my-20 grid lg:grid-cols-3 gap-20">
+    <div class="container mx-auto lg:p-36 p-3 my-20 grid lg:grid-cols-3 grid-cols-1 gap-20">
         <div class="lg:col-span-3 col-span-1 flex items-center gap-6">
             <h1 id="title">Popular Juices</h1>
         </div>
@@ -14,7 +14,7 @@ import axios from 'axios';
 import {ref, onMounted} from 'vue'
 import juice__card from '@/components/[juice]__card.vue'
 
-const base__URL = "https://mn-juicy-api.onrender.com/api/product/category/Star";
+const base__URL = "https://mn-juicy-api.onrender.com/api/product/category/star";
 const starJuices = ref([])
 
 onMounted(async() => {
