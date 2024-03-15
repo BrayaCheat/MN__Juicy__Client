@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto lg:px-36 p-3 my-20 flex flex-col gap-20">
-    <h1 id="title">Our Signature Drink</h1>
+    <h1 id="title">ទឹកផ្លែឈើប្រចាំហាង</h1>
     <div
       class="grid xl:grid-cols-2 grid-cols-1 place-items-center gap-6 bg-white p-3 rounded shadow-md"
     >

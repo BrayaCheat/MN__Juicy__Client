@@ -1,11 +1,11 @@
 <template>
   <div class="container mx-auto lg:px-36 p-3 my-20 flex flex-col gap-20">
-    <div class="flex justify-between items-center">
-      <h1 id="title">Our Juices</h1>
+    <div class="flex flex-wrap gap-3 justify-between items-center">
+      <h1 id="title" class="w-96">ទឹកផ្លែឈើគ្រប់មុខ</h1>
       <router-link
         to="/juice__page"
         class="underline text-primary font-medium text-lg"
-        >See more >></router-link
+        >មើលបន្ថែម >></router-link
       >
     </div>
     <div v-if="juices.length > 0">

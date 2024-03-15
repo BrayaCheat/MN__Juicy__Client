@@ -3,7 +3,7 @@
     class="container mx-auto lg:p-36 p-3 my-20 flex flex-col gap-20"
   >
     <div class="flex items-center gap-6">
-      <h1 id="title">Popular Juices</h1>
+      <h1 id="title">ទឹកផ្លែឈើពេញនិយម</h1>
     </div>
     <div v-if="starJuices.length > 0" class="grid lg:grid-cols-3 grid-cols-1 place-items-stretch gap-9">
       <div v-for="star in starJuices" :key="star._id">

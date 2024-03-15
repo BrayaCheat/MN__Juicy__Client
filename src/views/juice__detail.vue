@@ -14,7 +14,7 @@
         <h1 id="title">{{ juice.name }}</h1>
       <div class="star flex items-start border-b border-zinc-300 pb-3">
         <svg
-          class="w-6 h-6 text-yellow-300 drop-shadow-sm animate-pulse"
+          class="w-6 h-6 text-yellow-300 drop-shadow-sm"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -25,7 +25,7 @@
           />
         </svg>
         <svg
-          class="w-6 h-6 text-yellow-300 drop-shadow-sm animate-pulse"
+          class="w-6 h-6 text-yellow-300 drop-shadow-sm"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -36,7 +36,7 @@
           />
         </svg>
         <svg
-          class="w-6 h-6 text-yellow-300 drop-shadow-sm animate-pulse"
+          class="w-6 h-6 text-yellow-300 drop-shadow-sm"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -47,7 +47,7 @@
           />
         </svg>
         <svg
-          class="w-6 h-6 text-yellow-300 drop-shadow-sm animate-pulse"
+          class="w-6 h-6 text-yellow-300 drop-shadow-sm"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -58,7 +58,7 @@
           />
         </svg>
         <svg
-          class="w-6 h-6 text-yellow-300 drop-shadow-sm animate-pulse"
+          class="w-6 h-6 text-yellow-300 drop-shadow-sm"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -85,7 +85,7 @@
         </li>
         <li class="flex items-center">
           <h1 class="w-36 font-medium text-lg">Quantity:</h1>
-          <span>1 Bottle</span>
+          <span>1 ដប</span>
         </li>
       </ul>
     </div>

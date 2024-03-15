@@ -3,14 +3,14 @@
     class="container mx-auto lg:p-36 p-3 lg:my-20 my-44 flex flex-col gap-9 overflow-hidden"
   >
     <div class="flex flex-wrap justify-between items-center gap-3">
-      <h1 id="title" class="md:ms-5 text-gray-500">{{ juiceLabel || "ទឹកផ្លែឈើគ្រប់មុខ"  }}</h1>
+      <h1 id="title" class=" text-black w-96">{{ juiceLabel || "ទឹកផ្លែឈើគ្រប់មុខ"  }}</h1>
 
       <!-- drop__down__category -->
       <div
-        class="relative w-64 border border-zinc-300 text-center py-3 shadow-sm cursor-pointer"
+        class="relative w-64 border border-zinc-300 text-center py-3 shadow-sm cursor-pointer active:border active:border-primary"
         @click="toggleDropDown"
       >
-        <h1 class="active:border active:border-primary">{{ juiceHolder || "ជ្រើសរើសប្រភេទទឹកផ្លែឈើ" }}</h1>
+        <h1>{{ juiceHolder || "ជ្រើសរើសប្រភេទទឹកផ្លែឈើ" }}</h1>
         <ul
           v-if="isShowJuice"
           class="absolute top-14 z-30 grid gap-3 bg-white w-full shadow-md border"
@@ -26,7 +26,7 @@
         </ul>
       </div>
     </div>
-
+    <!-- --- -->
     <div
       v-if="juices.length > 0"
       class="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 place-items-stretch gap-9"
