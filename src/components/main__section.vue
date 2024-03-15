@@ -36,14 +36,11 @@
           Pomegrenate Juice - $3.0
         </h1>
         <p
-          class="font-semibold text-xl"
+          class="font-normal text-xl"
           data-aos="fade-in"
           data-aos-duration="2000"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A eveniet
-          nemo beatae officia, mollitia aut! Aut voluptates voluptate iusto
-          possimus, molestias facilis deleniti voluptas hic consectetur, eveniet
-          beatae dicta laboriosam ipsum explicabo est, accusantium iure?
+        គ្រាប់ផ្លែទទឹមមានអត្ថប្រយោជន៍ជួយសុខភាពជាច្រើនដូចជាកាត់បន្ថយការរលាកជួយដល់សុខភាពបេះដូងនិងជំនួយក្នុងការរំលាយអាហារ
         </p>
       </div>
     </div>
@@ -61,7 +58,7 @@ import {ref} from 'vue'
 const juices__flyer = ref([
   {
     id: 1,
-    image: '/Main__Flyer/main__juice.png'
+    image: '/Main__Flyer/main3__juice.jpg'
   },
   {
     id: 2,
@@ -69,7 +66,7 @@ const juices__flyer = ref([
   },
   {
     id: 3,
-    image: '/Main__Flyer/main3__juice.jpg'
+    image: '/Main__Flyer/main__juice.png'
   },
   {
     id: 4,

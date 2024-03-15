@@ -7,7 +7,7 @@
       class="Title flex flex-col md:items-start items-center gap-6 lg:text-7xl text-6xl font-semibold text-black"
     >
       <h1>Make Your Sweet Days.</h1>
-      <h1 class="text-xl">Welcome to our MN Juicy store, where a refreshing and health-conscious experience awaits you! At our juice store, we pride ourselves on crafting delicious beverages that not only tantalize your taste buds but also nourish your body with wholesome goodness.</h1>
+      <h1 class="text-xl font-normal">តើអ្នកកំពុងស្វែងរកវិធីសាស្ត្រធម្មជាតិនិងមានរសជាតិឆ្ងាញ់ដើម្បីទទួលបានស្បែកភ្លឺរលោងប្រឆាំងនឹងការកើតមុននិងសម្រេចគោលដៅសម្រស់មែនទេ? ក្រឡេកមកមើលវិធីសាស្ត្រធ្វើទឹកបន្លែផ្លែឈើដើម្បីទទួលបានស្បែកភ្លឺរលោងកាត់បន្ថយមុននិងសម្រស់ស្អាតចែករំលែកដោយ MN Juicy. ក្នុងការយកឈ្នះបញ្ហាស្បែកនិងសម្រស់ពីការទទួលទានទឹកបន្លែផ្លែឈើដែលទទួលបានអត្ថប្រយោជន៍ដ៏មិនគួរឲ្យជឿ</h1>
       <router-link to="/juice__page"
         class="text-xl text-white font-medium bg-primary hover:opacity-75 duration-300 px-6 py-3 rounded shadow-md flex items-center gap-6"
       >

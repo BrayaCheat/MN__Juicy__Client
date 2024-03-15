@@ -70,17 +70,17 @@
   const navbars = ref([
     {
       id: 1,
-      name: 'Home',
+      name: 'ទំព័រដើម',
       path: '/'
     },
     {
       id: 2,
-      name: 'All Juices',
+      name: 'ទឹកផ្លែឈើស្រស់',
       path: '/juice__page'
     },
     {
       id: 3,
-      name: 'About US',
+      name: 'អំពីពួកយើង',
       path: '/about'
     }
   ])
