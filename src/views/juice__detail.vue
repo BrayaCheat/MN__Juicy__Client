@@ -3,11 +3,11 @@
     class="container mx-auto lg:p-36 p-3 lg:my-20 my-36 py-10 grid md:grid-cols-2 grid-cols-1 md:place-items-stretch place-items-center md:gap-20 gap-9 overflow-hidden"
   >
   <router-link to="/juice__page" id="title" class="md:col-span-2 col-span-1">Go Back <i class="fa-solid fa-chevron-right"></i></router-link>
-    <div>
+    <div class="w-96 h-96">
       <img
         :src="getJuice(juice.image)"
         alt="Juice__Detail"
-        class="bg-white rounded shadow-md object-contain w-96 h-96"
+        class="bg-white rounded shadow-md object-contain w-full h-full"
       />
     </div>
     <div class="flex flex-col md:items-stretch items-center gap-6 w-full">
