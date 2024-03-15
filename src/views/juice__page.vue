@@ -40,7 +40,7 @@
 
       <div
         v-if="showPaginate"
-        class="xl:col-span-3 lg:col-span-2 col-span-1 flex items-center justify-center gap-3"
+        class="xl:col-span-3 lg:col-span-2 col-span-1 flex items-center justify-center gap-9"
       >
         <button
           @click="prevPage"

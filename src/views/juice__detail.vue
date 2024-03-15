@@ -2,7 +2,9 @@
   <div
     class="container mx-auto lg:p-36 p-3 lg:my-20 my-36 py-10 grid md:grid-cols-2 grid-cols-1 md:place-items-stretch place-items-center md:gap-20 gap-9 overflow-hidden"
   >
-  <router-link to="/juice__page" id="title" class="md:col-span-2 col-span-1">Go Back <i class="fa-solid fa-chevron-right"></i></router-link>
+    <router-link to="/juice__page" id="title" class="md:col-span-2 col-span-1"
+      >Go Back <i class="fa-solid fa-chevron-right"></i
+    ></router-link>
     <div class="w-96 h-96">
       <img
         :src="getJuice(juice.image)"
@@ -11,7 +13,10 @@
       />
     </div>
     <div class="flex flex-col md:items-stretch items-center gap-6 w-full">
+      <div class="flex items-center justify-between gap-9">
         <h1 id="title">{{ juice.name }}</h1>
+        <h1 id="title" class="text-primary">${{ juice.price }}</h1>
+      </div>
       <div class="star flex items-start border-b border-zinc-300 pb-3">
         <svg
           class="w-6 h-6 text-yellow-300 drop-shadow-sm"
@@ -70,9 +75,6 @@
         </svg>
       </div>
 
-      <h1 id="title">
-        Only <span id="title" class="text-primary">${{ juice.price }}</span>
-      </h1>
       <h1 class="border-b border-zinc-300 pb-3">{{ juice.description }}</h1>
       <ul class="List">
         <li class="flex items-center">
@@ -137,7 +139,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
-import { useRoute } from 'vue-router'
+import { useRoute } from "vue-router";
 
 const modules = [Pagination, Navigation];
 
@@ -145,7 +147,7 @@ const base__URL = "https://mn-juicy-api.onrender.com/api/product/";
 const juice__URL = "https://mn-juicy-api.onrender.com/";
 const juice = ref({});
 const related__Juices = ref([]);
-const route = useRoute()
+const route = useRoute();
 
 const getJuice = (juiceName) => {
   return juice__URL + juiceName;
