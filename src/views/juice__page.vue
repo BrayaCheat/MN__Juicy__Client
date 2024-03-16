@@ -9,7 +9,7 @@
 
       <!-- drop__down__category -->
       <div
-        class="relative w-64 border border-zinc-300 text-center py-3 shadow-sm cursor-pointer active:border active:border-primary"
+        class="relative w-64 border border-zinc-300 text-center py-3 shadow-sm cursor-pointer active:border active:border-primary duration-300"
         @click="toggleDropDown"
       >
         <h1>{{ juiceHolder || "ជ្រើសរើសប្រភេទទឹកផ្លែឈើ" }}</h1>
@@ -21,7 +21,7 @@
             @click="changeCategory(list.type, index, list.name)"
             v-for="list in lists"
             :key="list.id"
-            class="pe-3 py-3 hover:bg-gray-100 hover:text-primary duration-300 cursor-pointer"
+            class="pe-3 py-3 hover:bg-primary hover:text-white duration-300 cursor-pointer"
           >
             {{ list.name }}
           </li>
@@ -45,7 +45,7 @@
         <button
           @click="prevPage"
           :disabled="page === 1"
-          class="px-4 py-2 bg-primary text-white rounded shadow-sm hover:opacity-75 duration-300 cursor-pointer"
+          class="px-4 py-2 bg-primary text-white rounded shadow-sm hover:opacity-75 duration-300 cursor-pointer flex items-center gap-3"
         >
           <i class="fa-solid fa-chevron-left"></i>Previous
         </button>
@@ -120,7 +120,7 @@ const lists = ref([
   },
   {
     id: 4,
-    name: "បេសជ្ជៈពេញនិយម",
+    name: "ភេសជ្ជៈពេញនិយម",
     type: "Star",
   },
 ]);

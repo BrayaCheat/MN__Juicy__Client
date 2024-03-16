@@ -26,7 +26,7 @@ import axios from "axios";
 import { ref, onMounted } from "vue";
 import juice__card from "@/components/[juice]__card.vue";
 
-const base__URL = "https://mn-juicy-api.onrender.com/api/category/Star Juice";
+const base__URL = "https://mn-juicy-api.onrender.com/api/category/Star";
 const starJuices = ref([]);
 
 onMounted(async () => {

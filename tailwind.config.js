@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#8fc951'
+        primary: '#4169e1'
+        // #8fc951
       },
       keyframes: {
         wiggle: {

@@ -9,7 +9,7 @@
         to="/"
         class="flex items-center space-x-3 rtl:space-x-reverse"
       >
-        <img src="/Logo/MN_Juicy_Logo.png" class="h-28" alt="Flowbite Logo" />
+        <img src="/Logo/MN_Juicy_Logo.png" class="h-28 " alt="Flowbite Logo" />
         <span
           id="title"
           class="self-center whitespace-nowrap dark:text-white"
@@ -92,6 +92,6 @@
 
 <style scoped>
   .active{
-    color: #8fc951;
+    color: #4169e1;
   }
 </style>
