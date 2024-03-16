@@ -111,7 +111,7 @@ const lists = ref([
   {
     id: 2,
     name: "បំបាត់មុន",
-    type: "Acne Care",
+    type: "Ance Care",
   },
   {
     id: 3,
@@ -121,7 +121,7 @@ const lists = ref([
   {
     id: 4,
     name: "បេសជ្ជៈពេញនិយម",
-    type: "Star Juice",
+    type: "Star",
   },
 ]);
 

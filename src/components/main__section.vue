@@ -14,7 +14,7 @@
           shadowScale: 0.6,
         }"
         :autoplay="{
-          delay: 3000
+          delay: 5000
         }"
         :loop="true"
         :pagination="true"
@@ -66,7 +66,7 @@ const juices__flyer = ref([
   },
   {
     id: 3,
-    image: '/Main__Flyer/main__juice.png'
+    image: '/Main__Flyer/main__juice.jpg'
   },
   {
     id: 4,
